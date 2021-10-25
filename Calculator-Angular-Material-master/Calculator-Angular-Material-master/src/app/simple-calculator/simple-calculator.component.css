@@ -1,0 +1,6 @@
+.calculator{background-color:#4d4646;width:390px;position:absolute;left:35%;min-height:400px;padding: 2px;border-radius:20px;}
+.display_box {background-color: rgb(64, 184, 40);width: 350px;height:50px;margin:10px 20px 20px 20px;text-align: right;font-size: 20px;}
+table{background-color: #4d4646;width: 350px;height:350px;margin:10px 20px 20px 20px;}
+tr{background-color: blueviolet;}
+td{text-align: center;width: 50px;height:50px;background-color:rgb(151, 151, 151);font-size:22px;border-radius: 100px;font-weight:bolder;}
+td:active{background-color:rgb(49, 45, 45);color:whitesmoke;}

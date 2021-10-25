@@ -1,0 +1,35 @@
+<div class="calculator">
+<input #box type="text" value="{{holder}}" class="display_box" (keyup)="getValue(box.value)" name="username"/>
+<table>
+<tr>
+<td  (click)="prime()">Prime</td>
+<td  (click)="fact()">X!</td>
+<td (click)="clear()">AC</td>
+<td (click)="delete()">⌫</td>
+<tr>
+<tr>
+<td (click)="seven()">7</td>
+<td (click)="eight()">8</td>
+<td (click)="nine()">9</td>
+<td (click)="add()">+</td>
+<tr>
+<tr>
+<td (click)="four()">4</td>
+<td (click)="five()">5</td>
+<td (click)="six()">6</td>
+<td (click)="sub()">-</td>
+<tr>
+<tr>
+<td (click)="three()">3</td>
+<td (click)="two()">2</td>
+<td (click)="one()">1</td>
+<td (click)="mul()">x</td>
+<tr>
+<tr>
+<td (click)="zero()">0</td>
+<td (click)="decimal()">.</td>
+<td (click)="result()">=</td>
+<td (click)="div()">/</td>
+<tr>
+</table>
+</div>
